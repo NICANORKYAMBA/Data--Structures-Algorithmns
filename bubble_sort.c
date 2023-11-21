@@ -19,9 +19,11 @@ int main(void)
 
 	printf("Unsorted array: \n");
 	printarray(array, size);
+	printf("\n");
 
 	bubblesort(array, size);
 
+	printf("\n");
 	printf("Sorted array: \n");
 	printarray(array, size);
 
@@ -83,11 +85,12 @@ void bubblesort(int *array, int size)
 	{
 		swapped = false;
 
-		for (j = 0; j < size - i - 1; j++)
+		for (j = 0; j < size - 1 - i; j++)
 		{
 			if (array[j] > array[j + 1])
 			{
 				swap(&array[j], &array[j + 1]);
+				printarray(array, size);
 				swapped = true;
 			}
 		}
