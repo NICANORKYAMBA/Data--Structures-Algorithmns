@@ -7,11 +7,11 @@
  * @price: price of the car
  * @speed: speed of the car
  */
-struct car {
+typedef struct car {
 	char *name;
 	float price;
 	int speed;
-};
+} car;
 
 /**
  * main - entry point
@@ -20,11 +20,11 @@ struct car {
  */
 int main(void)
 {
-	struct car saturn;
+	car saturn;
 
 	saturn.name = "Saturn SL/2";
-	saturn.price = 799.99;
-	saturn.speed = 175;
+	saturn.price = 999.99;
+	saturn.speed = 300;
 
 	printf("Model: %s\n", saturn.name);
 	printf("Price: %f\n", saturn.price);
