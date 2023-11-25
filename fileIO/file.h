@@ -15,7 +15,7 @@
  * @word: array of words
  * @frequency: number of times the word is found
  */
-typedef struct wordFrequency
+typedef struct
 {
 	char word[MAX_WORD_LENGTH];
 	int frequency;
