@@ -1,0 +1,16 @@
+This is a comprehensive text for testing the File I/O program in C.
+The program should be able to analyze this text and generate an informative report.
+
+It contains sentences of varying lengths and words with different frequencies.
+Some words may repeat, and others may be unique.
+Additionally, there are punctuation marks and newline characters to test the robustness of the program.
+
+The average word length should reflect the overall distribution of word lengths in the text.
+The program should accurately count the total number of words and lines in the file.
+It should also identify the most frequent word and correctly report its frequency.
+
+The testing text includes numbers, special characters, and a mix of uppercase and lowercase letters.
+The program should handle these cases and not be case-sensitive when counting words.
+
+Let's see how well the File I/O program performs on this comprehensive text.
+The generated report in the output file should provide insights into the characteristics of the input text.

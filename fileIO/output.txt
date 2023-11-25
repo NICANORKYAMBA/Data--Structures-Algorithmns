@@ -1,0 +1,4 @@
+Word Count: 167
+Line Count: 16
+Average Word Length: 10.438
+Most Frequent Word: "˜" (0 times)
