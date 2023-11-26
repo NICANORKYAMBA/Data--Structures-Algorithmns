@@ -69,7 +69,7 @@ def main():
     The main function to demonstrate quicksort on an
     array.
     """
-    array = [11, 200, 369, 1147, 2021, 56, 89, 23, 74, 70, 10, 99, 65, 38, 19, 12, 49, 43]
+    array = [11, 200, 369, 1147, 2021, 56, 89, 23, 74, 10, 99, 65, 38, 19, 49]
 
     size = len(array)
     lower = 0
